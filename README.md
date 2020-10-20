@@ -23,7 +23,8 @@ The data question that the analysis will answer:
   - How many clusters? What characteristics define each cluster? How many colleges are in each cluster?
 
 ADD LINK TO CLUSTER
-The data analysis conducted:
+
+The data analysis conducted on 421 U.S. colleges:
 - [Cluster Analysis]() shows three clusters (diminishing returns as additional clusters added): 
 - ![alt_text](https://github.com/matthewprk/innovation-at-US-colleges-/blob/main/Cluster%20Analysis%20Table.png)
   - Cluster 1 - Most innovative schools with higher Asian, non-resident, and top parent income quintile populations. 
