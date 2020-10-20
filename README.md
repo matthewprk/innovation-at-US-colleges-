@@ -25,11 +25,11 @@ The data question that the analysis will answer:
 ADD LINK TO CLUSTER
 
 The data analysis conducted on 421 U.S. colleges using Solver:
-- [Cluster Analysis]() - shows three clusters (diminishing returns as additional clusters added): 
+- [Cluster Analysis](https://github.com/matthewprk/innovation-at-US-colleges-/blob/main/Data%20Analysis%20Mini%20Project%20%233.xls) - shows three clusters (diminishing returns as additional clusters added): 
 - ![alt_text](https://github.com/matthewprk/innovation-at-US-colleges-/blob/main/cluster%20analysis%20table1.png)
   - Cluster 1 - Most innovative schools with higher Asian, non-resident, and top parent income quintile populations. 
   - Cluster 2 - Slightly below average innovative schools with low Hispanic and bottom parent income quintile populations.
-  - Cluster 3 - Lease innovative schools with high Black, Hispanic, and top parent income quintile populations and low top parent income quintile and non-resident populations.
+  - Cluster 3 - Least innovative schools with high Black, Hispanic, and top parent income quintile populations and low top parent income quintile and non-resident populations.
 - ![alt_text](https://github.com/matthewprk/innovation-at-US-colleges-/blob/main/cluster%20count.png)
   - Most colleges fall into the middle-of-the-pack Cluster 2. Almost an equal number of colleges in Clusters 1 and 3. This shows that ~75% of U.S. colleges are somewhat or not  very innovative. 
   
@@ -37,4 +37,6 @@ The data analysis conducted on 421 U.S. colleges using Solver:
   - ![alt text](https://github.com/matthewprk/innovation-at-US-colleges-/blob/main/clusters%20pq5%20and%20inventors.png)
   
 ## Summary and Next Steps
-It was determined that job density and job growth are not helpful predictors for employment rate in Baltimore. Although commute time <15min, poverty rate, and median HH income can be used to predict employment rate, they are not the strongest predictors given 63% of the variation is explained by other factors. To determine factors that would better predict employment rate in Baltimore, it would he helpful to look at education status, regional industries/roles, and skillsets. These would hopefully explain any structural disconnects between employers and employees/job seekers. 
+It was determined that there are three clusters for U.S. colleges when looking at variables regarding innovation (inventors, patents) and diversity (asian pct, black pct, hispanic pct, alien pct, pct pq1, and pct pq5). U.S. colleges are grouped into Cluster 1 9most innovative schools with higher Asian, non-resident, and top parent income quintile populations.), Cluster 2 (Slightly below average innovative schools with low Hispanic and bottom parent income quintile populations.), and Cluster 3 (Least innovative schools with high Black, Hispanic, and top parent income quintile populations and low top parent income quintile and non-resident populations.). 
+
+While this analysis looked at the how innovation can be segmented by ethnicities and parent income quintiles, it would be important to examine how [major distribution](http://www.equality-of-opportunity.org/data/college/Codebook%20MRC%20Table%2010.pdf) contribute to innovation. This could provide insight as to whether or not colleges that are less innovative can focus on expanding certain programs. Additional data I'd like to explore would be endowment and public funding. The capital inflows from these two sources could be significant contributors to how innovative a college is. 
