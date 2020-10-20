@@ -16,7 +16,10 @@ How are U.S. colleges grouped based on metrics relating to innovation and social
   - [Parent Income Quintiles](https://github.com/matthewprk/innovation-at-US-colleges-/blob/main/equalityofopportunity.xlsx)
 
 ## Data Analysis
-The data questions that the analysis will answer:
+The data question that the analysis will answer:
+- How are U.S. colleges clustered in terms of: inventors, patents, pct Asian, pct Blacks, pct Hispanic, pct alient, pct pq1, and pct pq5?
+  - How many clusters? What characteristics define each cluster? How many colleges are in each cluster?
+
 - [Initial regression table shows that job density and job growth do not explain employment rate (p>0.05)](https://github.com/matthewprk/baltimore-city-employment-rate-2015/commit/ae82633f7204e4845eb398dc863d423f6100d682)
 - Revised regression table shows that commute time <15min, poverty rate, and median HH income can be predictors of employment rate (p<0.05)
   - The equation used to predict employment rate is: Employment Rate = - 0.1278(traveltime15_2016) - 0.0680(poverty rate) + 2.0810E-06(median HH Income) + 0.6897
