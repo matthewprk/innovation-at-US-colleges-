@@ -10,9 +10,9 @@ Explored how U.S. colleges are clustered in terms of 1) innovation (inventors an
 How are U.S. colleges grouped based on metrics relating to innovation and social mobility (ethnicities, parent incomes)?
 
 ## Data Sources
-- [Opportunity Atlas](https://www.opportunityatlas.org/) - Baltimore-City tract data for outcome + independent variables
-  - [Annualized Job Growth](https://github.com/matthewprk/baltimore-city-employment-rate-2015/blob/master/shown_tract_ann_avg_job_growth_2004_2013.xls)
-  - [Job Density](https://github.com/matthewprk/baltimore-city-employment-rate-2015/blob/master/shown_tract_job_density_2013.xls)
+- [Opportunity Insights](https://opportunityinsights.org/data/?geographic_level=100&topic=105&paper_id=0#resource-listing) - U.S. college data on innovation metrics and parent income quintiles
+  - [Innovation Rates by College]()
+- [](https://github.com/matthewprk/baltimore-city-employment-rate-2015/blob/master/shown_tract_job_density_2013.xls)
   - [Household Median Income](https://github.com/matthewprk/baltimore-city-employment-rate-2015/blob/master/shown_tract_kfr_rP_gP_pall.xls)
   - [Poverty Rates](https://github.com/matthewprk/baltimore-city-employment-rate-2015/blob/master/shown_tract_poor_share2016.xls)
   - [Commute Time <15min](https://github.com/matthewprk/baltimore-city-employment-rate-2015/blob/master/shown_tract_traveltime15_2016.xls)
