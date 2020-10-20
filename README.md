@@ -24,7 +24,7 @@ The data question that the analysis will answer:
 
 ADD LINK TO CLUSTER
 
-The data analysis conducted on 421 U.S. colleges:
+The data analysis conducted on 421 U.S. colleges using Solver:
 - [Cluster Analysis]() shows three clusters (diminishing returns as additional clusters added): 
 - ![alt_text](https://github.com/matthewprk/innovation-at-US-colleges-/blob/main/cluster%20analysis%20table1.png)
   - Cluster 1 - Most innovative schools with higher Asian, non-resident, and top parent income quintile populations. 
