@@ -7,7 +7,8 @@ Explored how U.S. colleges are clustered in terms of 1) innovation (inventors an
 [The odds of picking any two students from a four-year U.S. college and them being from different racial or ethnic backgrounds is 69.6%](https://www.usatoday.com/story/money/2020/02/13/these-colleges-have-the-most-diverse-student-bodies/41152233/). While this may show that U.S. colleges are diverse, it doesn't show how U.S. colleges can be grouped in terms of innovation and diversity. Thus, for how innovative U.S. colleges are I chose to examine 1) inventors (the % of students who are inventors) and 2) total patents (the total # of patents granted to students). For diversity, I chose to examine 3) pct Asian 4) pct Black 35 pct Hispanic 6) pct alien (non-resident) 7) pct pq1 (% of students whose parents are in the bottom income quintile) and 8) pct pq5 (% of students whose parents are in the top income quintile). The goal is to understand how U.S. colleges can be grouped in terms of innovaiton and diversity. If the more diverse colleges are the most innovative, then that indicates one area where less diverse colleges can improve to promote innovation.
  
 ## Business Question
-How can Baltimore City's predict and increase its employment rate by examing factors such as job desnity, job growth, poverty rate, median HH income, and commute time?
+How are U.S. colleges grouped based on metrics relating to innovation and social mobility (ethnicities, parent incomes)?
+
 ## Data Sources
 - [Opportunity Atlas](https://www.opportunityatlas.org/) - Baltimore-City tract data for outcome + independent variables
   - [Annualized Job Growth](https://github.com/matthewprk/baltimore-city-employment-rate-2015/blob/master/shown_tract_ann_avg_job_growth_2004_2013.xls)
