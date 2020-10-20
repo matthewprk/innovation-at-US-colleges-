@@ -1,1 +1,48 @@
-##Data Cleaning
+**Data Cleaning**
+- Open both original datasets. One from Opportunity Insights and the other from Equality of Opportunity. Both can be found in the repository. 
+- In the Opportunity Insights workbook, title additional columnds: 1) asian pct 2) black pct 3) hispanic pct 4) alien pct
+- In the first cell below the asian pct title, use VLOOKUP to bring the asian pct data from the Equality of Opportunity worksheet into the Opportunity Insights worksheet. Use super_opeid as the unique identifier. 
+- Repeat the previous step for black pct, hispanic pct, and alien pct. You're spreadsheet should look like the original Opporunity Insights worksheet, but with the 4 additional ethnicity columns populated. 
+- Next, title 2 additional columns: 1) pct pq1 pq1 and 2) pct pq5. 
+- In the pct pq1 column, find the product of count_pq1 and count. This will give you the % of students whose parents are in the lowest income quintile for a given university. 
+- Drag the formula down to populate the rest of the pct pq1 column for all schools. 
+- Repeat the previous two steps but for pct pq5
+- Delete any column that is not super_opeid, instnm, count_pq1, count_pq5, inventor, total_patents, asian pct, black pct, hispanic pct, alien pct, count, pct pq1, or pct pq5
+*Reference worksheet "cleaned data" in Excel Data Analysis if any issues*
+
+**Cluster Analysis**
+- In a new worksheet, copy and paste special the values of the cleaned data.
+- Delete any columns so that your data only includes: super_opeid, instnm, inventor, total_patents, asian pct, black pct, hispanic pct, alien pct, pct pq1, and pct pq5
+- Add a column to the left of super_opeid and title it school number. 
+- Populate each cell in this column with an integer starting from and counting up by 1 (i.e. 1, 2, 3, 4...) for each school. 
+- Insert 10-12 empty rows above the column titles. This space will be used for your cluster table. 
+- Two rows above the "inventor" column title, use the AVERAGE formula to find the mean # of inventors all schools.
+- One row above the "inventor" column title, use the STDEV formula to find the standard deviation of the # of inventors for all schools. 
+- Drag these formulas across their tows to find the mean and standard deviations for total patents, asian pct, black pct, hispanic pct, alien pct, pct pq1, and pct pq5.
+- Title 6 additional columns the same as the columns you found mean and stdev for. These columns will be used to find the z-score for each cell in their respective columns. 
+- In the first cell below the new "inventor" column title, use the STANDARDIZE formula to find the z-score. The x value will be the corresponding x in the original "inventor column, the mean will be the mean you calculated two cells above the original "inventor" column title, and the stdev will be the st dev you calculated one cell above the original "inventor" column title. Anchor the mean and stdev cells so that they do not change when you populate the rest of the column.
+- Repeat the previous step for the 5 additional columns. Always reference the corresponding x, mean, and stdev and make sure to anchor the mean and st dev for a given column. 
+- Highlight the current data and title it "cluster1". This will make it easier to reference for later for vlookups. 
+- In the empty rows above the the data, label 11 new columns: 1) Cluster 2) School Name 3) School Number 4) Inventor 5) total patents 6) asian pct 7) black pct 8) hispanic pct 9) alien pct 10) pct pq1 11) pct pq5. Leave at least 3 empty rows below the titles and 1 empty row above. 
+- You will be doing a 3x cluster analysis. Below the new "School Number" column, enter 3 random school numbers. 
+- In the new "School Name" column, use VLOOKUP to match the school name from "cluster1" into the cell. Use School Number as the unique identifer. Drag this formula down to populate the remaining 2 cells.
+- Enter "12" into the cell above the new "inventor" column title, enter "13" into the cell above the new "total patents" column title.... Enter "19" in the cell above the new "pct pq5" column title. These will serve as your column references from cluster1. 
+- In the cell below the new "inventor" column title, use VLOOKUP to match the z-score of the populated school for inventors. Use School Number as the unique identifier, cluster1 as the arry, and the "12" you inputed as the column index. Anchor column index cell.
+- Drag this formula down to populate the z-score for the additional 2 schools.
+- Repeat the previous 2 steps for the remaining columns. Always anchor the column index reference. 
+- In the dataset below what you just created, title 3 new columns next to the z-score columns: 1) Dist2_1 2) Dist2_2 3) Dist2_3
+- In the cell below Dist2_1, use SUMXMY2 to find the distance squared between the school and first anchor. Your array x will be the range of cells representing the all the z-scores for the school in the current row and your array y will be the z-scores in the above dataset representing the first anchor. Make sure to anchor array y so that it does not change when you populate the other cells. 
+- Drag this formula down to populate Dist2_1 for all schools. 
+- Repeat the previous 2 steps but your array y for Dist2_2 will be the range of z-scores for anchor 2, and your array y for Dist2_3 will be the range of z-scores for anchor 3. 
+- Title a new column "min Dist2"
+- Use the MIN function to find the minimum Dist2 for a given row. Range will be Dist2_1, Dist2_2, and Dist2_3
+- Drag this formula down to populate min Dist2 for all schools
+- Above the min Dist2 column, use the SUM formula to find the sum of all min Dist 2 values. This will be your target value for the cluster. 
+- Use Solver in Data tab to run your cluster analysis: "Set Objective" is the cell with the sum of the min dist2, "By Changing Variable Cells" is the range of School Numbers in the table above the dataset (there should be 3 cells), Constraints are that the aforementioned range should be <=421, >=1, and intgeger, set "To:" to "min", and change "Solving Method" to "Evolutionary"
+- Click Solve. You should see the data in the table, Dist2 values, min Dist2 values, and sum min Dist2 change.
+- Once the Solver stops running, you will have your optimal clusters for the data. 
+
+- In the new "inventor" column, use VLOOKUP to match the z-score of the
+*Reference worksheet "cleaned data" in Excel Data Analysis if any issues*
+
+**Cluster Visualization**
