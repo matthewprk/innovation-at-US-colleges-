@@ -36,6 +36,5 @@ The data analysis conducted on 421 U.S. colleges using Solver:
 - [Cluster Visualization] - shows the clusters based on pct pq5 and inventors. The anchors for these variables (one for innovation and one for diversity) had the highest stdev for their z-scores 
   - ![alt text](https://github.com/matthewprk/innovation-at-US-colleges-/blob/main/clusters%20pq5%20and%20inventors.png)
   
-![alt text](https://github.com/matthewprk/baltimore-city-employment-rate-2015/blob/master/linreg_povertyrate.png)
 ## Summary and Next Steps
 It was determined that job density and job growth are not helpful predictors for employment rate in Baltimore. Although commute time <15min, poverty rate, and median HH income can be used to predict employment rate, they are not the strongest predictors given 63% of the variation is explained by other factors. To determine factors that would better predict employment rate in Baltimore, it would he helpful to look at education status, regional industries/roles, and skillsets. These would hopefully explain any structural disconnects between employers and employees/job seekers. 
