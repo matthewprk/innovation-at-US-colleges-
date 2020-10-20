@@ -46,3 +46,13 @@
 *Reference worksheet "cleaned data" in Excel Data Analysis if any issues*
 
 **Cluster Visualization**
+- In the cluster analysis workbook, use the MATCH function to match each school to its corresponding anchor. Create another column called Anchor, and use MATCH to lookup min Dist2 from the range of Dist2 values for a given school. 
+- In a new workbook, copy and paste special the values for columns inventor, pct pq5, and anchor
+- Sort the data by anchor from smallest to largest
+- Select the inventor and pct pq5 columns and insert a scatter plot
+- Click "Select Data" and use "-" to remove the data
+- Click "+" and name the new data Cluster 1
+- Add X and Y values corresponding to Cluster 1
+- Repeat the previous 2 steps for Clusters 2 and 3
+- Click Done and you will have a graph with the 3 clusters for pq5 and inventors
+
