@@ -31,6 +31,7 @@ The data analysis conducted on 421 U.S. colleges using Solver:
   - Cluster 2 - Slightly below average innovative schools with low Hispanic and bottom parent income quintile populations.
   - Cluster 3 - Lease innovative schools with high Black, Hispanic, and top parent income quintile populations and low top parent income quintile and non-resident populations.
 - ![alt_text](https://github.com/matthewprk/innovation-at-US-colleges-/blob/main/cluster%20count.png)
+  - Most colleges fall into the middle-of-the-pack Cluster 2. Almost an equal number of colleges in Clusters 1 and 3. This shows that ~75% of U.S. colleges are somewhat or not  very innovative. 
   
 - [Cluster Visualization]()
   - 
