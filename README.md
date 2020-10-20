@@ -33,7 +33,7 @@ The data analysis conducted on 421 U.S. colleges using Solver:
 - ![alt_text](https://github.com/matthewprk/innovation-at-US-colleges-/blob/main/cluster%20count.png)
   - Most colleges fall into the middle-of-the-pack Cluster 2. Almost an equal number of colleges in Clusters 1 and 3. This shows that ~75% of U.S. colleges are somewhat or not  very innovative. 
   
-- [Cluster Visualization] - shows the clusters based on pct pq5 and inventors. The anchors for these variables (one for innovation and one for diversity) had the highest stdev for their z-scores 
+- Cluster Visualization - shows the clusters based on pct pq5 and inventors. The anchors for these variables (one for innovation and one for diversity) had the highest stdev for their z-scores 
   - ![alt text](https://github.com/matthewprk/innovation-at-US-colleges-/blob/main/clusters%20pq5%20and%20inventors.png)
   
 ## Summary and Next Steps
