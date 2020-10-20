@@ -24,8 +24,8 @@ The data question that the analysis will answer:
 
 ADD LINK TO CLUSTER
 The data analysis conducted:
-- [3x Cluster Analysis](https://github.com/matthewprk/innovation-at-US-colleges-/blob/main/Cluster%20Analysis%20Table.png)
 - [Cluster Analysis]() shows three clusters (diminishing returns as additional clusters added): 
+- ![alt_text](https://github.com/matthewprk/innovation-at-US-colleges-/blob/main/Cluster%20Analysis%20Table.png)
   - Cluster 1 - Most innovative schools with higher Asian, non-resident, and top parent income quintile populations. 
   - Cluster 2 - Slightly below average innovative schools with low Hispanic and bottom parent income quintile populations
   - Cluster 3 - Lease innovative schools with high Black, Hispanic, and top parent income quintile populations and low top parent income quintile and non-resident populations. 
