@@ -11,12 +11,10 @@ How are U.S. colleges grouped based on metrics relating to innovation and social
 
 ## Data Sources
 - [Opportunity Insights](https://opportunityinsights.org/data/?geographic_level=100&topic=105&paper_id=0#resource-listing) - U.S. college data on innovation metrics and parent income quintiles
-  - [Innovation Rates by College]()
-- [](https://github.com/matthewprk/baltimore-city-employment-rate-2015/blob/master/shown_tract_job_density_2013.xls)
-  - [Household Median Income](https://github.com/matthewprk/baltimore-city-employment-rate-2015/blob/master/shown_tract_kfr_rP_gP_pall.xls)
-  - [Poverty Rates](https://github.com/matthewprk/baltimore-city-employment-rate-2015/blob/master/shown_tract_poor_share2016.xls)
-  - [Commute Time <15min](https://github.com/matthewprk/baltimore-city-employment-rate-2015/blob/master/shown_tract_traveltime15_2016.xls)
-  - [Employment Rates](https://github.com/matthewprk/baltimore-city-employment-rate-2015/blob/master/baltimore_working_rP_gP_pall.xls)
+  - [Innovation Rates by College](https://github.com/matthewprk/innovation-at-US-colleges-/blob/main/Innovation%20Rates%20by%20College.csv)
+- [Equality of Opportunity](http://www.equality-of-opportunity.org/data/college/Codebook%20MRC%20Table%2010.pdf) - U.S. college data on students' parent income quintile
+  - [Parent Income Quintiles](https://github.com/matthewprk/innovation-at-US-colleges-/blob/main/equalityofopportunity.xlsx)
+
 ## Data Analysis
 The data questions that the analysis will answer:
 - [Initial regression table shows that job density and job growth do not explain employment rate (p>0.05)](https://github.com/matthewprk/baltimore-city-employment-rate-2015/commit/ae82633f7204e4845eb398dc863d423f6100d682)
