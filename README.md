@@ -30,7 +30,7 @@ The data analysis conducted on 421 U.S. colleges:
   - Cluster 1 - Most innovative schools with higher Asian, non-resident, and top parent income quintile populations. 
   - Cluster 2 - Slightly below average innovative schools with low Hispanic and bottom parent income quintile populations
   - Cluster 3 - Lease innovative schools with high Black, Hispanic, and top parent income quintile populations and low top parent income quintile and non-resident populations.
-- ![alt_text](https://github.com/matthewprk/innovation-at-US-colleges-/commit/c4e04f79a740402ceeee145164ba8c969e7e39a9)
+- ![alt_text](https://github.com/matthewprk/innovation-at-US-colleges-/blob/main/cluster%20count.png)
   
 - [Cluster Visualization]()
   - 
